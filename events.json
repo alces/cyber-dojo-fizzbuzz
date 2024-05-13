@@ -155,5 +155,21 @@
       38,
       442569
     ]
+  },
+  {
+    "duration": 1.447616,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 10,
+    "time": [
+      2024,
+      5,
+      13,
+      12,
+      18,
+      1,
+      358422
+    ]
   }
 ]

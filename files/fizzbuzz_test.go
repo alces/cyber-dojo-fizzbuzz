@@ -15,7 +15,7 @@ var testData = []testResults{
 }
 
 func TestFizzBuzz(t *testing.T) {
-    for _, result := testData {
+    for _, result := range testData {
         actual := FizzBuzz(result.argument)
         if actual != result.expected {
             t.Error(fmt.Sprintf("Expected %#v while actual is %#v", result.expected, actual))
