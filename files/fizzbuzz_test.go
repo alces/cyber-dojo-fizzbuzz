@@ -5,6 +5,15 @@ import (
     "testing"
 )
 
+type testResult struct {
+    argument int
+    expected string
+}
+
+testData = []testResults{
+    {argument: 2, expected: "2"},    
+}
+
 func TestFizzBuzz(t *testing.T) {
     expected := "2"
     actual := FizzBuzz(2)
