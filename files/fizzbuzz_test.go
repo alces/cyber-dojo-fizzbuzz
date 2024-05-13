@@ -10,6 +10,6 @@ func TestFizzBuzz(t *testing.T) {
     actual := FizzBuzz(2)
     
     if actual != expected {
-        t.Error(fmt.Sprintf("Expected '%v' while actual '%v'", expected, actual))
+        t.Error(fmt.Sprintf("Expected %#v while actual is %#v", expected, actual))
     }
 }
