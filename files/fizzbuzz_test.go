@@ -10,7 +10,7 @@ type testResult struct {
     expected string
 }
 
-var testData = []testResults{
+var testData = []testResult{
     {argument: 2, expected: "2"},    
 }
 
