@@ -1,5 +1,5 @@
 --- FAIL: TestFizzBuzz (0.00s)
-    fizzbuzz_test.go:10: Expected 2 while actual 
+    fizzbuzz_test.go:13: Expected '2' while actual ''
 FAIL
 exit status 1
-FAIL	_/sandbox	0.002s
+FAIL	_/sandbox	0.001s
