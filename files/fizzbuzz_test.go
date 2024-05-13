@@ -12,6 +12,7 @@ type testResult struct {
 
 var testData = []testResult{
     {argument: 2, expected: "2"},
+    {argument: 2, expected: "Fizz"},
     {argument: 11, expected: "11"},
 }
 
