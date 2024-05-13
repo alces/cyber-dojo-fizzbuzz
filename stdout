@@ -1,5 +1,1 @@
---- FAIL: TestFizzBuzz (0.00s)
-    fizzbuzz_test.go:13: Expected "2" while actual is ""
-FAIL
-exit status 1
-FAIL	_/sandbox	0.001s
+FAIL	_/sandbox [build failed]
