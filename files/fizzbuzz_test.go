@@ -14,6 +14,7 @@ var testData = []testResult{
     {argument: 2, expected: "2"},
     {argument: 3, expected: "Fizz"},
     {argument: 11, expected: "11"},
+    {argument: 13, expected: "13"},
 }
 
 func TestFizzBuzz(t *testing.T) {
