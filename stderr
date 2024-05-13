@@ -1,2 +1,2 @@
-# _/sandbox [_/sandbox.test]
-./fizzbuzz.go:4:19: int (type) is not an expression
+# _/sandbox
+./fizzbuzz.go:4:12: conversion from int to string yields a string of one rune, not a string of digits (did you mean fmt.Sprint(x)?)
