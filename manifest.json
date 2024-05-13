@@ -1,0 +1,21 @@
+{
+  "image_name": "cyberdojofoundation/go_testing:a2dbf73",
+  "display_name": "Go, testing",
+  "filename_extension": [
+    ".go"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4,
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2024,
+    5,
+    13,
+    11,
+    39,
+    46,
+    302740
+  ],
+  "id": "gvptaF"
+}
