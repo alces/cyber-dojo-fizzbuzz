@@ -1,5 +1,9 @@
 package fizzbuzz
 
+import (
+    "fmt"
+)
+
 func FizzBuzz(num int) string {
-    return string(num)
+    return fmt.Sprintf("%d", num)
 }
