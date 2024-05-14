@@ -7,8 +7,11 @@ import (
 
 func TestNumbersLen(t *testing.T) {
     expected := 10
+    modificator := func(_ int) {
+        return ""
+    }
 
-    if actual := len(numbers(expected)); actual != expected {
+    if actual := len(numbers(expected, modificator)); actual != expected {
         t.Error(fmt.Sprintf("Expected %v while actual %v", expected, actual))
     }
 }
