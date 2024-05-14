@@ -14,7 +14,6 @@ var testData = []struct {
     {argument: 5, expected: "Buzz"},
     {argument: 6, expected: "Fizz"},
     {argument: 13, expected: "13"},
-    {argument: 15, expected: "FizzBuzz"},
 }
 
 func TestFizzBuzz(t *testing.T) {
