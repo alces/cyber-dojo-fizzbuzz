@@ -1,5 +1,8 @@
 package fizzbuzz
 
 func numbers(length int, modificator func (int) string) []string {
-    return make([]string, length)
+    result := make([]string, length)
+    for i := 0; i < length; i++ {
+        result[i] = modificator(i)
+    }
 }
