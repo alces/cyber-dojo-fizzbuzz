@@ -4,9 +4,7 @@ import (
     "fmt"
 )
 
-func FizzBuzz(num int) string {
-    result := ""
- 
+func FizzBuzz(num int) result string {
     if num%3 == 0 {
         result += "Fizz"
     }

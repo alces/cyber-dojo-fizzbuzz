@@ -459,5 +459,21 @@
       32,
       420033
     ]
+  },
+  {
+    "duration": 1.563262,
+    "colour": "amber",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 29,
+    "time": [
+      2024,
+      5,
+      14,
+      8,
+      48,
+      24,
+      909804
+    ]
   }
 ]
