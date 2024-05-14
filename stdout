@@ -1,5 +1,6 @@
 --- FAIL: TestFizzBuzz (0.00s)
-    fizzbuzz_test.go:22: Expected "FizzBuzz" while actual is "15"
+    fizzbuzz_test.go:23: Expected "Fizz" while actual is "6"
+    fizzbuzz_test.go:23: Expected "FizzBuzz" while actual is "15"
 FAIL
 exit status 1
-FAIL	_/sandbox	0.001s
+FAIL	_/sandbox	0.002s
