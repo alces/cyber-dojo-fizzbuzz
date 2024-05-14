@@ -26,3 +26,9 @@ func TestModifiedNumber(t *testing.T) {
         t.Error(fmt.Sprintf("Expected %#v while actual %#v", expected, actual))
     }
 }
+
+func TestAll(_ *testing.T) {
+    for _, v := range numbers(100, fizzbuzz) {
+        fmt.Println(v)
+    }
+}
