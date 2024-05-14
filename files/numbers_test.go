@@ -28,7 +28,7 @@ func TestModifiedNumber(t *testing.T) {
 }
 
 func TestAll(_ *testing.T) {
-    for _, v := range numbers(100, fizzbuzz) {
+    for _, v := range numbers(100, FizzBuzz) {
         fmt.Println(v)
     }
 }
