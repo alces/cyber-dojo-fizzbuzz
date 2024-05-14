@@ -1,4 +1,2 @@
 # _/sandbox [_/sandbox.test]
-./numbers_test.go:14:40: too many arguments in call to numbers
-	have (int, func(_ int) string)
-	want (int)
+./numbers.go:3:31: syntax error: mixed named and unnamed parameters

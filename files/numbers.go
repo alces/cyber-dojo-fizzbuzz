@@ -1,5 +1,5 @@
 package fizzbuzz
 
-func numbers(length int) []string {
+func numbers(length int, func (int) string) []string {
     return make([]string, length)
 }
