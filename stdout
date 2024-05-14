@@ -1,1 +1,5 @@
-FAIL	_/sandbox [build failed]
+--- FAIL: TestModifiedNumber (0.00s)
+    numbers_test.go:26: Expected "x1" while actual "x0"
+FAIL
+exit status 1
+FAIL	_/sandbox	0.002s
