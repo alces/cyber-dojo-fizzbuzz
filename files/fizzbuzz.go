@@ -5,13 +5,19 @@ import (
 )
 
 func FizzBuzz(num int) string {
+    result := ""
+ 
     if num%3 == 0 {
-        return "Fizz"
+        result += "Fizz"
     }
     
     if num%5 == 0 {
-        return "Buzz"
+        result += "Buzz"
     }
     
-    return fmt.Sprintf("%d", num)
+    if result == "" {
+        result = fmt.Sprintf("%d", num)
+    }
+    
+    return result
 }

@@ -1,5 +1,2 @@
---- FAIL: TestFizzBuzz (0.00s)
-    fizzbuzz_test.go:24: Expected "FizzBuzz" while actual is "Fizz"
-FAIL
-exit status 1
-FAIL	_/sandbox	0.003s
+PASS
+ok  	_/sandbox	0.005s
