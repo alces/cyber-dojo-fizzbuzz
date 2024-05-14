@@ -1,7 +1,7 @@
 package fizzbuzz
 
 import (
-    "fmt"
+    "strconv"
 )
 
 func FizzBuzz(num int) (result string) {
@@ -14,7 +14,7 @@ func FizzBuzz(num int) (result string) {
     }
     
     if result == "" {
-        result = fmt.Sprintf("%d", num)
+        result = strconv.Itoa(num)
     }
     
     return result
