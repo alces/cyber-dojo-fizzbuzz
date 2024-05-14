@@ -5,7 +5,7 @@ import (
     "testing"
 )
 
-TestNumbersLen(t *testing.T) {
+func TestNumbersLen(t *testing.T) {
     expected := 10
 
     if actual := len(numbers(expected)); actual != expected {
