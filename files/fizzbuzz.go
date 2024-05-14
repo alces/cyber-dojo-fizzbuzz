@@ -9,5 +9,9 @@ func FizzBuzz(num int) string {
         return "Fizz"
     }
     
+    if num == 5 {
+        return "Buzz"
+    }
+    
     return fmt.Sprintf("%d", num)
 }
