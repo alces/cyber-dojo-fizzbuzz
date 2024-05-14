@@ -1,7 +1,4 @@
 # _/sandbox [_/sandbox.test]
-./numbers_test.go:11:16: too many return values
-	have (string)
-	want ()
 ./numbers_test.go:14:40: too many arguments in call to numbers
-	have (int, func(_ int))
+	have (int, func(_ int) string)
 	want (int)

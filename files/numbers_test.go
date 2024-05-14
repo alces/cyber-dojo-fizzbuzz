@@ -7,7 +7,7 @@ import (
 
 func TestNumbersLen(t *testing.T) {
     expected := 10
-    modificator := func(_ int) {
+    modificator := func(_ int) string {
         return ""
     }
 
