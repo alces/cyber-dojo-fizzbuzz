@@ -1,2 +1,5 @@
-PASS
-ok  	_/sandbox	0.001s
+--- FAIL: TestModifiedNumber (0.00s)
+    numbers_test.go:26: Expected "x1" while actual ""
+FAIL
+exit status 1
+FAIL	_/sandbox	0.001s

@@ -15,3 +15,14 @@ func TestNumbersLen(t *testing.T) {
         t.Error(fmt.Sprintf("Expected %v while actual %v", expected, actual))
     }
 }
+
+func TestModifiedNumber(t *testing.T) {
+    expected := "x1"
+    modificator := func(a int) string {
+        return fmt.Sprintf("x%d", a)
+    }
+
+    if actual := numbers(1, modificator)[0]; actual != expected {
+        t.Error(fmt.Sprintf("Expected %#v while actual %#v", expected, actual))
+    }
+}
