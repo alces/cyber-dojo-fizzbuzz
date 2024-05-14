@@ -13,6 +13,7 @@ var testData = []struct {
     {argument: 3, expected: "Fizz"},
     {argument: 5, expected: "Buzz"},
     {argument: 6, expected: "Fizz"},
+    {argument: 10, expected: "Buzz"},
     {argument: 13, expected: "13"},
 }
 
