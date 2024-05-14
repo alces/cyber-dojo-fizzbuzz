@@ -507,5 +507,21 @@
       54,
       537543
     ]
+  },
+  {
+    "duration": 0.71686,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 32,
+    "time": [
+      2024,
+      5,
+      14,
+      12,
+      3,
+      20,
+      461566
+    ]
   }
 ]
