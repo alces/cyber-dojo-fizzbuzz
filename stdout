@@ -1,3 +1,5 @@
+--- FAIL: TestModifiedNumber (0.00s)
+    numbers_test.go:26: Expected "x1" while actual "x0"
 FizzBuzz
 1
 2
@@ -98,5 +100,6 @@ Fizz
 97
 98
 Fizz
-PASS
-ok  	_/sandbox	0.003s
+FAIL
+exit status 1
+FAIL	_/sandbox	0.002s

@@ -17,7 +17,7 @@ func TestNumbersLen(t *testing.T) {
 }
 
 func TestModifiedNumber(t *testing.T) {
-    expected := "x0"
+    expected := "x1"
     modificator := func(a int) string {
         return fmt.Sprintf("x%d", a)
     }
